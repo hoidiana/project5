@@ -250,15 +250,15 @@ small.text-muted {
     left: -33%;
     position: absolute;
     top: 0;
-    width: 33%;
+    width: 40%;
     margin-left: 5px;
   }
-
+  
   #sidebar, #sidebar a, #sidebar-footer a {
     padding-left:3px;
   }
-	
+
   .row > img {
-  width: 200px;
+  width: 367px;
 }
 }
