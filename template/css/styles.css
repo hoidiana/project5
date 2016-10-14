@@ -257,4 +257,8 @@ small.text-muted {
   #sidebar, #sidebar a, #sidebar-footer a {
     padding-left:3px;
   }
+	
+  .row > img {
+  width: 300px;
+}
 }
