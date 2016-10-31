@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta charset="utf-8">
+		<title>Project 5</title>
+		<meta name="generator" content="Bootply" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link href="template/css/bootstrap.min.css" rel="stylesheet">
+		<!--[if lt IE 9]>
+			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<link href="template/css/styles.css" rel="stylesheet">
+	</head>
+	<body>
+<div class="wrapper">
+    <div class="box">
+        <div class="row row-offcanvas row-offcanvas-left">
+                      
+          
+            <!-- sidebar -->
+            <div class="column col-sm-2 col-xs-1 sidebar-offcanvas" id="sidebar">
+              
+              	<ul class="nav">
+          			<li><a href="#" data-toggle="offcanvas" class="visible-xs text-center"><i class="glyphicon glyphicon-chevron-right"></i></a></li>
+            	</ul>
+               
+                <ul class="nav hidden-xs" id="lg-menu">
+                    <li class="active"><a href="start.html"><i class="glyphicon glyphicon-home"></i> Home</a></li>
+                    <li><a href="resultaten.html"><i class="glyphicon glyphicon-list"></i> Resultaten</a></li>
+                    <li><a href="ranking.html"><i class="glyphicon glyphicon-stats"></i> Ranking</a></li>
+                    <li><a href="recepten.html"><i class="glyphicon glyphicon-list-alt"></i> Recepten</a></li>
+                    <li><a href="video.html"><i class="glyphicon glyphicon-film"></i> BTS</a></li>
+                </ul>
+                <ul class="list-unstyled hidden-xs" id="sidebar-footer">
+                    <li>
+                      <a href="http://www.bootply.com"><h3>Bootstrap</h3> <i class="glyphicon glyphicon-heart-empty"></i> Bootply</a>
+                    </li>
+                </ul>
+              
+              	<!-- tiny only nav-->
+              <ul class="nav visible-xs" id="xs-menu">
+                  	<li><a href="start.html" class="text-center"><i class="glyphicon glyphicon-home"></i></a></li>
+                    <li><a href="resultaten.html" class="text-center"><i class="glyphicon glyphicon-list"></i></a></li>
+                  	<li><a href="ranking.html" class="text-center"><i class="glyphicon glyphicon-stats"></i></a></li>
+                    <li><a href="recepten.html" class="text-center"><i class="glyphicon glyphicon-list-alt"></i></a></li>
+                    <li><a href="video.html" class="text-center"><i class="glyphicon glyphicon-film"></i></a></li>
+                </ul>
+              
+            </div>
+            <!-- /sidebar -->
+          
+            <!-- main right col -->
+            <div class="column col-sm-10 col-xs-11" id="main">
+                
+                <!-- top nav -->
+              	<div class="navbar navbar-blue navbar-static-top">  
+                    <div class="navbar-header">
+                      <a href="start.html" class="navbar-brand logo"><img src="images/masterchefLogo.png" alt=""></a>
+                  	</div>
+                </div>
+                <!-- /top nav -->
+              
+                <div class="padding">
+                    <div class="full col-sm-9">
+                      
+                        <!-- content -->                      
+                      	<div class="row">
+
+                         <div class="rankingNav">
+                            <nav>
+                              <ul class="nav nav-tabs">
+                                  <li role="presentation"><a href="ranking.html">Landelijk</a></li>
+                                  <li role="presentation" class="active"><a href="facebookRanking.html">Facebook</a></li>
+                                  <li role="presentation"><a href="scoreRanking.html">Mijn score</a></li>
+                              </ul>
+                            </nav>
+                              </div>
+
+                                                            <table class="table">
+                                <thead>
+                                  <tr>
+                                    <th>Rank</th>
+                                    <th>Name</th>
+                                    <th>Score</th>
+                                  </tr>
+                                </thead>
+
+                                <tbody>
+                                  <tr>
+                                    <td>1</td>
+                                    <td>Koffie</td>
+                                    <td>4202</td>
+                                  </tr>
+
+                                  <tr>
+                                    <td>2</td>
+                                    <td>Macaronilover</td>
+                                    <td>4168</td>
+                                  </tr>
+
+                                  <tr>
+                                    <td>3</td>
+                                    <td>Michelle</td>
+                                    <td>4076</td>
+                                  </tr>
+
+                                  <tr>
+                                    <td>4</td>
+                                    <td>Miami</td>
+                                    <td>4008</td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                          </div>
+
+                          </div>
+
+                       </div><!--/row-->
+                   
+                    </div><!-- /col-9 -->
+                </div><!-- /padding -->
+            </div>
+            <!-- /main -->
+          
+        </div>
+    </div>
+</div>
+
+
+<!--post modal-->
+<div id="postModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+  <div class="modal-content">
+      <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+			Update Status
+      </div>
+      <div class="modal-body">
+          <form class="form center-block">
+            <div class="form-group">
+              <textarea class="form-control input-lg" autofocus="" placeholder="What do you want to share?"></textarea>
+            </div>
+          </form>
+      </div>
+      <div class="modal-footer">
+          <div>
+          <button class="btn btn-primary btn-sm" data-dismiss="modal" aria-hidden="true">Post</button>
+            <ul class="pull-left list-inline"><li><a href=""><i class="glyphicon glyphicon-upload"></i></a></li><li><a href=""><i class="glyphicon glyphicon-camera"></i></a></li><li><a href=""><i class="glyphicon glyphicon-map-marker"></i></a></li></ul>
+		  </div>	
+      </div>
+  </div>
+  </div>
+</div>
+	<!-- script references -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+		<script src="template/js/bootstrap.min.js"></script>
+		<script src="template/js/scripts.js"></script>
+	</body>
+</html>
