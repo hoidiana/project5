@@ -333,4 +333,22 @@ small.text-muted {
   #master2 {
     border-top: 2px solid white;
   }
+
+  .antwoorden {
+    margin-top: -20px;
+  }
+
+  #eten {
+    margin-top: 0px;
+  }
+
+  #kok {
+    background-color: #e9eaed;
+    color: #f0830d;
+    border-bottom: 2px solid white;
+  }
+
+  .infoChef {
+    margin-top: -30px;
+  }
 }
